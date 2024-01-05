@@ -1,6 +1,6 @@
-import LuciPeque from '../assets/pequelucia.jpg'
-import LuciPayasa from '../assets/lpayasa.jpg'
-import LuciMedica from '../assets/ltrabajobest.jpg'
+import LuciPeque from '../public/pequelucia.jpg'
+import LuciPayasa from '../public/lpayasa.jpg'
+import LuciMedica from '../public/ltrabajobest.jpg'
 import {FaArrowRight} from 'react-icons/fa'
 
 export const Historia = () => {

@@ -1,18 +1,24 @@
+import contenta from '../public/contenta.jpg'
+import fuertehot from '../public/ellafuertehot.jpg'
+import hot from '../public/ellahot.jpg'
+import preciosa from '../public/ellapreciosa.jpg'
+import vestidohot from '../public/ellavestidohot.jpg'
+
 export const data = [
     {
-        id:0,imageurl:'src/assets/contenta.jpg'
+        id:0,imageurl:contenta
     },
     {
-        id:1,imageurl:'src/assets/ellafuertehot.jpg'
+        id:1,imageurl:fuertehot
     },
     {
-        id:2,imageurl:'src/assets/ellahot.jpg'
+        id:2,imageurl:hot
     },
     {
-        id:3,imageurl:'src/assets/ellapreciosa.jpg'
+        id:3,imageurl:preciosa
     },
     {
-        id:4,imageurl:'src/assets/ellavestidohot.jpg'
+        id:4,imageurl:vestidohot
     }
 
 

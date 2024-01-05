@@ -1,9 +1,9 @@
-import medica1 from '../assets/pijama.jpg'
-import medica2 from '../assets/ltrabajo.jpg'
-import medica3 from '../assets/ltrabajobest.jpg'
-import dormida from '../assets/ldormida.jpg'
-import india from '../assets/india.jpg'
-import jason from '../assets/calvasesina.jpg'
+import medica1 from '../public/pijama.jpg'
+import medica2 from '../public/ltrabajo.jpg'
+import medica3 from '../public/ltrabajobest.jpg'
+import dormida from '../public/ldormida.jpg'
+import india from '../public/india.jpg'
+import jason from '../public/calvasesina.jpg'
 
 export const Profesion = () => {
   return (
@@ -28,7 +28,7 @@ export const Profesion = () => {
             </div>
             <div className='flex justify-between items-center'>
                 <img src={medica1} alt='medicina' className='md:w-[300px] md:h-[400px] sm:w-[200px] sm:h-[300px] w-[150px] h-[200px] rounded-lg'></img>
-                <img src={medica2} alt='medicina' className='md:w-[300px] md:h-[400px] sm:w-[200px] sm:h-[300px] w-[150px] h-[200px] rounded-lg'></img>
+              <img src={medica2} alt='medicina' className='md:w-[300px] md:h-[400px] sm:w-[200px] sm:h-[300px] w-[150px] h-[200px] rounded-lg'></img>
                 <img src={medica3} alt='medicina'className='md:w-[300px] md:h-[400px] sm:w-[200px] sm:h-[300px] w-[150px] h-[200px] rounded-lg'></img>
             </div>
 
