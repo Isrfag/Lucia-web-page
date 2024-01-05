@@ -23,11 +23,11 @@ export const Inicio = () => {
 
   return (
     <>
-    <div name= "inicio" className='h-screen w-full bg-gradient-to-b via-cyan-500 from-cyan-500 to-cyan-100'>
+    <div name= "inicio" className='  h-screen w-full bg-gradient-to-b via-cyan-500 from-cyan-500 to-cyan-100'>
       
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center
       h-full px-4 md:flex-row'> 
-        <div className='flex flex-col justify-center h-full'>
+        <div className='flex flex-col justify-center h-full mt-60 md:mt-0'>
           
           <h2 className='text-4xl md:text-7xl font-bold text-white' > Soy una persona Maravillosa</h2>
           
@@ -48,7 +48,7 @@ export const Inicio = () => {
           </div>
         </div>
 
-        <div className='flex flex-row justify-center items-center md:mb-0 mb-12'>  
+        <div className='flex flex-row justify-center items-center md:mb-0 mb-12 sm:mt-0 mt-12'>  
               <ul ref={listRef}>
                 {
                   data.map((item) => {

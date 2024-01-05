@@ -11,7 +11,7 @@ export const Profesion = () => {
     <div name="profesión" className="w-full h-full bg-gradient-to-b from-cyan-500 to-cyan-100
     text-black">
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-            <div className="py-8">
+            <div className="py-8 justify-center">
                 <p className="text-4xl font-bold inline border-b-4 border-gray-800">Profesión</p>
                 <p className="py-6 text-xl">Hay gente que siente que debe ser médico desde pequeño, vocación por la profesión, no fue mi caso. Yo no tenía muy
                 claro que quería hacer con mi vida, me gustaba la informática, también me plantee ser policía, que cosas eh. Pero hay algo que siempre

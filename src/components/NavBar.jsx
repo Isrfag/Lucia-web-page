@@ -37,7 +37,7 @@ export const NavBar = () => {
 
     return (
         <>
-        <div className='flex justify-between items-center w-full h-20 text-white fixed 
+        <div className='flex justify-between items-center sm:w-full w-screen h-20 text-white fixed 
         bg-cyan-500 px-4 '>
             <div>
                 <h1 className=' text-5xl font-signature text-white ml-2'>Lg</h1>

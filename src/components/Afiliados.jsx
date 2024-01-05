@@ -6,7 +6,7 @@ export const Afiliados = () => {
     <div name="afiliados" className="w-full h-full bg-gradient-to-b from-cyan-100 to-cyan-500
     text-black">
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-            <div className="pb-8">
+            <div className="pb-8 justify-center">
                 <p className="text-4xl font-bold inline border-b-4 border-gray-800">Afiliados</p>
                 <p className="py-6">Aquí algunas de las personas más importantes en mi vida, todas y cada una de ellas me han acompañado de una manera
                 u otra y me quieren como el primer día.</p>

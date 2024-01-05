@@ -8,15 +8,15 @@ export const Rasgos = () => {
        <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         
         <div className='pb-8 flex md:justify-normal justify-center'>
-            <p className='text-4xl text-black font-bold inline border-b-4 border-gray-800'>Mis rasgos principales son</p>
+            <p className='text-4xl text-black font-bold inline border-b-4 border-gray-800'>Mis rasgos</p>
         </div>
 
             <div>
                 <div className='flex flex-row justify-between items-center'>
                 {data2.map(item => (
                                     <div key={item.id}>
-                                        <img className='w-[300px] h-[150px] md:w-[600px] md:h-[300px] rounded-full md:p-5' src={item.imgUrl}></img>
-                                        <p className='text-2xl text-white text-center mt-4 pb-20'>{item.desc}</p>
+                                        <img className='w-[120px] h-[100px] md:w-[600px] md:h-[300px] rounded-full md:p-5' src={item.imgUrl}></img>
+                                        <p className='sm:text-2xl text-white text-center mt-4 pb-20 '>{item.desc}</p>
                                     </div>
                                     ))}
                 
